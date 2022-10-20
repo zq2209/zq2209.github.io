@@ -1,0 +1,28 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# This is Zining's awesome website
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+Here is a image
+
+```{r}
+library(tidyverse)
+
+sample = rnorm(1000)
+mean(sample)
+```
+
+There is a direct link to about page: [about](about.html)
+
+I also made an extra page
+
+
+
+
