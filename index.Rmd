@@ -1,5 +1,5 @@
 ---
-title: "My awesome website"
+title: "Zining Qi's website"
 output: 
   html_document:
     toc: true
@@ -7,21 +7,14 @@ output:
     theme: cerulean
 ---
 
-# This is Zining's awesome website
+## Welcome to Zining Qi's website
+In this website, there is a resume page, which will introduce my personal information. This page includes my academic and professional experience. And this is the direct link to [Resume](about.html).
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
-Here is a image
+Here is my [Email.](mailto:<zq2209@cumc.columbia.edu>)
 
-```{r}
-library(tidyverse)
+Here is my [Github Page.](http://github.com/zq2209/)
 
-sample = rnorm(1000)
-mean(sample)
-```
-
-There is a direct link to about page: [about](about.html)
-
-I also made an extra page
+There is also a page for plots. The direct link is 
 
 
 

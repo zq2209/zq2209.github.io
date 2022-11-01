@@ -1,5 +1,5 @@
 ---
-title: "About this website"
+title: "<center>Resume"
 output: 
   html_document:
     toc: true
@@ -7,6 +7,59 @@ output:
     theme: cerulean
 ---
 
-# This is Jeff's awesome website
+# Zining Qi
+I am a first-year master student of biostatistics in School of Public Health, Columbia University Irving Medical Center. I received a Bachelor degree from Indiana University in 2021, where major in Finance and minor in math and statistics. I have spent about two years during undergraduate in statistical projects. Now, I am interested in statistical genetics and computational biology in genetics.    
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+The PDF version of resume is [here.](http://github.io/zq2209/resume.pdf)
+
+### EDUCATION BACKGROUND
+#### Indiana University, Kelley School of Business (2017.08 - 2021.12)   
+***GPA*** 3.925/4.0   
+***Majors***: Finance    
+***Minors***: Mathematics, and Statistics      
+***Rewards***: University Division of Highest Distinction   
+***Selected Coursework***:Technology and business analyses, Data Modeling and Inference, Introduction to
+computers and programming, Exploratory data analysis, Introduction to differential equation, Introduction to Biostatistics, Probability, Math Analysis
+
+#### Columbia University, CUIMC, School of Public Health (2022.09 till date)
+***Majors***: Biostatistics   
+***Selected Coursework***: Biostatistics Method, Probability, Data Science, Epidemiology
+
+### PROJECT EXPERIENCE
+#### NBA Wikipedia Data Scraping Using Python
+- Scraped more than 1000 NBA related data points from more than 100 Wikipedia webpages using python
+- Automated scraping process by **regular expression**; performed data cleaning and verification using **pandas**  
+- Performed **descriptive and inferential data analyses** including time series analysis, regression and visualization
+
+#### Exploratory Data Analysis on Medical Appointment No Show data Using R  
+- Performed **data visualization** including scatter plots, line plots and correlation charts to analyze the relationships among more than 100,000 observations and proposed valuable questions worthy exploring
+- Split the dataset into 3 folds using **cross-validation** for training and testing
+- Employed **multivariable linear regression** and **logistic regression model** to fit the data points
+
+#### Applied Linear Regression Analysis on Seoul Bike Data Using R 
+- Applied **power transformation**, **stepwise model selection**, **non-constant variance model**, **Ridge Regression**, and **Lasso Regression** to fit the dataset.
+- Utilized RSS, residual plot, **influence analysis**, AIC, BIC as selection criteria to perform model selection.
+
+### CAMPUS EXPERIENCE
+#### Research Assistant - Kelley School of Business 
+- Used STATA to analyze a dataset containing all career paths of elite engineers in the U.S.
+- Used STATA codes instead of insert tools to cleaning data, including renaming variables, dropping meaningless data points, transforming variables, and adding new variables.
+- Merged and grouped the variable “wage” by other variables, such as state, year, and industry.
+- Created csv files and merged them into one STATA dataset.
+- Used codes to match each data point in the dataset with the categories in csv files.
+
+#### Teaching Assistant - Introduction to Accounting, Kelley School of Business
+- Tutored students and proctored exams.
+
+### PROGRAMMING
+Skilled in **Python**, **R**, **STATA**
+
+
+
+
+
+
+
+
+
+
