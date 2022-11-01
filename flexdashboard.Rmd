@@ -1,0 +1,13 @@
+---
+title: "flexdashboard"
+author: "Zining Qi"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+

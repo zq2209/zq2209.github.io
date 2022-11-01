@@ -10,7 +10,7 @@ output:
 # Zining Qi
 I am a first-year master student of biostatistics in School of Public Health, Columbia University Irving Medical Center. I received a Bachelor degree from Indiana University in 2021, where major in Finance and minor in math and statistics. I have spent about two years during undergraduate in statistical projects. Now, I am interested in statistical genetics and computational biology in genetics.    
 
-The PDF version of resume is [here.](http://github.io/zq2209/resume.pdf)
+The PDF version of resume is [here.](https://zq2209.github.io/resume.pdf)
 
 ### EDUCATION BACKGROUND
 #### Indiana University, Kelley School of Business (2017.08 - 2021.12)   
