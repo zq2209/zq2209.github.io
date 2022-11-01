@@ -14,49 +14,18 @@ library(plotly)
 data("instacart")
 ```
 
-
-
-Column {data-width=650}
------------------------------------------------------------------------
-
-### Total numbers of items ordered in selected aisle (n > 10000)
-
 ```{r}
 instacart = 
   instacart %>% 
   as_tibble(instacart)
 ```
 
-```{r}
-# Make a plot that shows the number of items ordered in each aisle, limiting this to aisles with more than 10000 items ordered
-bar_p = instacart %>% 
-  count(aisle) %>% 
-  filter(n > 10000) %>%  
-  mutate(aisle = fct_reorder(aisle, n)) %>% 
-  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar", colors = "viridis") %>% 
-  layout(yaxis = list(title = 'Total number of items ordered'))
 
-bar_p
-```
-
-
-Column {data-width=350}
+Column {data-width=650}
 -----------------------------------------------------------------------
 
-### The hour in the day on which the order was placed of selected aisle
-
-```{r}
-# Make a boxplot that shows the hour of the day ordered in the aisles
-box_p = instacart %>% 
-  filter(aisle %in% c("baking ingredients", "dog food care", "fresh vegetables", "yogurt", "canned meat seafood", "fresh fruits", "eggs", "cream", "packaged cheese", "water seltzer sparkling water")) %>% 
-  plot_ly(y = ~order_hour_of_day, color = ~aisle, type = "box", colors = "viridis") %>% 
-  layout(yaxis = list(title = 'The hour in the day'),
-         xaxis = list(title = "aisle"))
-
-box_p
-```
-
 ### Mean of days since last order for randomly selected products
+
 ```{r}
 products = sample(instacart$product_name, size = 30, replace = F)
 ```
@@ -81,6 +50,35 @@ line_p
 ```
 
 
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Total numbers of items ordered in selected aisle (n > 15000)
+
+```{r}
+# Make a plot that shows the number of items ordered in each aisle, limiting this to aisles with more than 10000 items ordered
+bar_p = instacart %>% 
+  count(aisle) %>% 
+  filter(n > 15000) %>%  
+  mutate(aisle = fct_reorder(aisle, n)) %>% 
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar", colors = "viridis") %>% 
+  layout(yaxis = list(title = 'Total number of items ordered'))
+
+bar_p
+```
+
+### The hour in the day on which the order was placed of selected aisle
+
+```{r}
+# Make a boxplot that shows the hour of the day ordered in the aisles
+box_p = instacart %>% 
+  filter(aisle %in% c("baking ingredients", "dog food care", "fresh vegetables", "yogurt", "canned meat seafood", "fresh fruits", "eggs", "cream", "packaged cheese", "water seltzer sparkling water")) %>% 
+  plot_ly(y = ~order_hour_of_day, color = ~aisle, type = "box", colors = "viridis") %>% 
+  layout(yaxis = list(title = 'The hour in the day'),
+         xaxis = list(title = "aisle"))
+
+box_p
+```
 
 
 
