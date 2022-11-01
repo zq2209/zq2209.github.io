@@ -62,7 +62,7 @@ bar_p = instacart %>%
   filter(n > 15000) %>%  
   mutate(aisle = fct_reorder(aisle, n)) %>% 
   plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar", colors = "viridis") %>% 
-  layout(yaxis = list(title = 'Total number of items ordered'))
+  layout(yaxis = list(title = 'Total number of items'))
 
 bar_p
 ```
