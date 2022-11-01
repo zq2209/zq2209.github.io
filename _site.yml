@@ -5,7 +5,7 @@ navbar:
   right:
     - text: "Resume"
       href: about.html
-    - text: "Plotly"
+    - text: "Dashboard"
       href: flexdashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<zq2209@cumc.columbia.edu>
