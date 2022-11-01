@@ -8,13 +8,13 @@ output:
 ---
 
 ## Welcome to Zining Qi's website
-In this website, there is a resume page, which will introduce my personal information. This page includes my academic and professional experience. And this is the direct link to [Resume](about.html).
+In this website, there is a resume page, which will introduce my personal information. This page includes my academic and professional experience. And this is the direct link to [Resume.](about.html).
 
 Here is my [Email.](mailto:<zq2209@cumc.columbia.edu>)
 
 Here is my [Github Page.](http://github.com/zq2209/)
 
-There is also a page for plots. The direct link is [here
+There is also a page for plots. The direct link is [here.](flexdashboard.html)
 
 
 
