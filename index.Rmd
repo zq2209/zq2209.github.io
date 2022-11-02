@@ -11,11 +11,11 @@ output:
 In this website, there is a resume page, which will introduce my personal information. This page includes my academic and professional experience. And this is the direct link to [Resume.](about.html) Or just click the **Resume** button on the top right corner.
 
 ## Email
-Here is my [Email.](mailto:<zq2209@cumc.columbia.edu>)    
+Here is my [Email](mailto:<zq2209@cumc.columbia.edu>)(zq2209@cumc.columbia.edu).       
 Or click on the envelop icon on the top right corner.
 
 ## Github Page
-Here is my [Github Page.](http://github.com/zq2209/)    
+Here is my [Github Repo.](https://github.com/zq2209/zq2209.github.io)    
 Or click on the github icon on the top right corner.
 
 ## Instacart Dashboard
