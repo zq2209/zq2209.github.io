@@ -18,10 +18,6 @@ Or click on the envelop icon on the top right corner.
 Here is my [Github Page.](https://github.com/zq2209/)    
 Or click on the github icon on the top right corner.
 
-## Linkedin
-Here is my [Linkedin.](www.linkedin.com/in/qizining)
-Or click the **Linkedin** button on the top right corner.
-
 ## Instacart Dashboard
 There is also a page for plots. These plots are made by using *instacart* dataset.    
 The direct link is [here.](flexdashboard.html) Or click the **Dashboard** button on the up right corner.  
