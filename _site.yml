@@ -7,6 +7,8 @@ navbar:
       href: about.html
     - text: "Dashboard"
       href: flexdashboard.html
+    - text: "Linkedin"
+      href: www.linkedin.com/in/qizining
     - icon: fa-envelope fa-lg
       href: mailto:<zq2209@cumc.columbia.edu>
     - icon: fa-github fa-lg
